@@ -1,0 +1,45 @@
+{
+  "cli": {
+    "version": ">=16.17.4"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "ios": {
+        
+      }
+    },
+    "production": {
+      "ios": {
+        
+        "distribution": "store"
+      },
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "testflight": {
+      "ios": {
+        
+        "distribution": "store",
+        "autoIncrement": "buildNumber"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+      
+        "appleId": "lionmartinez@gmail.com",
+        "ascAppId": "lionmartinez@gmail.com"
+      },
+      "android": {
+        
+      }
+    }
+  }
+}
