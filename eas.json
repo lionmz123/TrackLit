@@ -9,22 +9,21 @@
     },
     "preview": {
       "distribution": "internal",
-      "ios": {
-        
-      }
+      "ios": {}
     },
     "production": {
       "ios": {
-        
-        "distribution": "store"
+        "cache": {
+          "disabled": true
+        }
       },
+      "distribution": "store",
       "android": {
         "buildType": "apk"
       }
     },
     "testflight": {
       "ios": {
-        
         "distribution": "store",
         "autoIncrement": "buildNumber"
       }
@@ -33,13 +32,10 @@
   "submit": {
     "production": {
       "ios": {
-      
-        "appleId": "lionmartinez@gmail.com",
+        "appleId": "6748543318",
         "ascAppId": "lionmartinez@gmail.com"
       },
-      "android": {
-        
-      }
+      "android": {}
     }
   }
 }
