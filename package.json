@@ -9,6 +9,8 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "test": "jest"
+"postinstall": "rm -rf node_modules/react-native/third-party-podspecs/boost*"
+
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.0",
