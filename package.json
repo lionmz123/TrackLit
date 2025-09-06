@@ -10,7 +10,7 @@
   "web": "expo start --web",
   "test": "jest",
   "postinstall": "rm -rf ..."
-}
+},
 
   
   "dependencies": {
